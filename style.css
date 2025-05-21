@@ -16,9 +16,17 @@ body {
   text-align: center;
 }
 
+.logo {
+  background-color: #232323;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
 .logo img {
   width: 140px;
-  margin-bottom: 20px;
+  display: block;
+  margin: auto;
 }
 
 h1 {
@@ -55,7 +63,7 @@ h1 {
   border: none;
   border-radius: 6px;
   text-decoration: none;
-  color: #fff;
+  color: white; /* ✅ Texte en blanc */
   cursor: pointer;
   text-align: center;
 }
