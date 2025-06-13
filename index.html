@@ -31,21 +31,6 @@
     GTI Immobilier – <a href="https://www.gti-immobilier.fr">www.gti-immobilier.fr</a>
   </footer>
 
-  <script>
-    // Exemple : tu peux remplacer cela par une lecture de l'URL ou autre source
-    const numero = "0123456789"; // ← numéro du conseiller à injecter dynamiquement si besoin
-
-    document.getElementById("tel").textContent = numero;
-    document.getElementById("tel").href = "tel:" + numero;
-
-    document.getElementById("btnCall").addEventListener("click", function (e) {
-      e.preventDefault();
-      if (/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
-        window.location.href = "tel:" + numero;
-      } else {
-        alert("📞 " + numero);
-      }
-    });
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
